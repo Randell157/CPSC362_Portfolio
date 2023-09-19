@@ -12,6 +12,7 @@ nav a{
     float: left;
     color: limegreen;
     text-align: center;
+    text-decoration: none;
     padding: 16px 14px;
     font-size: 20px;
 }
@@ -21,4 +22,20 @@ nav a:hover{
 
 nav a:active{
     background-color: lime;
+}
+.linksContainer{
+    display: flex;
+    align-items: flex-start;
+
+}
+.linksContainer div{
+    float: left;
+    padding: 10px;
+    text-align: center;
+    flex-basis: 10%;
+}
+
+.logo{
+    max-width: 150px;
+    align-items:stretch;
 }
