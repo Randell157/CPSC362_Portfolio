@@ -46,9 +46,6 @@ nav a:hover{
     background-color: white;
 }
 
-nav a:active{
-    background-color: lime;
-}
 .linksContainer{
     display: flex;
     align-items: flex-start;
