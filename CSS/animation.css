@@ -1,0 +1,11 @@
+.homeHeader{
+    animation: headerIn 1s;
+}
+@keyframes headerIn{
+    from{
+        transform: translateY(-1000px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
