@@ -9,6 +9,13 @@ header{
     margin: auto;
     overflow: hidden;
 }
+.pfp{
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    float: left;
+}
+
 nav{
     overflow: hidden;
     background-color: black;

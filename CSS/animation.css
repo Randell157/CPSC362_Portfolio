@@ -1,9 +1,20 @@
 .homeHeader{
-    animation: headerIn 1s;
+    animation: headerIn .5s;
 }
 @keyframes headerIn{
     from{
         transform: translateY(-1000px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+.mainPage{
+    animation: bodyIn 1s;
+}
+@keyframes bodyIn {
+    from{
+        transform: translateY(-10000px);
     }
     to{
         transform: translateY(0px);
