@@ -49,7 +49,7 @@ nav a:hover{
 .linksContainer{
     display: flex;
     align-items: flex-start;
-
+    width: 100%;
 }
 .linksContainer div{
     float: left;
@@ -59,9 +59,13 @@ nav a:hover{
 
 .logo{
     max-width: 75px;
+    padding: 10px;
     align-items:stretch;
 }
 
+h3{
+    text-align: center;
+}
 @media only screen and (max-width: 768px) {
     header, header a, footer{
         text-align: center;
