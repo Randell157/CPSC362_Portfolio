@@ -17,8 +17,8 @@ header h1 {
 
 footer {
     background-color: lightgreen;
-    margin-top: 20px;
-    padding: 20px;
+    margin-bottom: 0;
+    padding: 30px;
     overflow: hidden;
     text-align: center;
 }
@@ -45,9 +45,9 @@ nav a:hover {
 
 .pfp {
     display: block;
+    margin: auto;
+    float: left;
     width: 500px;
-    object-fit: cover;
-    z-index: -1;
 }
 
 .welcome {

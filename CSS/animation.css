@@ -1,22 +1,55 @@
-/* .homeHeader{
-    animation: headerIn .5s;
+.homeHeader {
+    animation: headerIn .25s;
 }
-@keyframes headerIn{
-    from{
+
+@keyframes headerIn {
+    from {
         transform: translateY(-1000px);
     }
-    to{
+
+    to {
         transform: translateY(0px);
     }
 }
-.wrapper{
-    animation: bodyIn 1s;
+
+.homeBody {
+    animation: bodyIn .5s;
 }
+
 @keyframes bodyIn {
-    from{
+    from {
         transform: translateY(-10000px);
     }
-    to{
+
+    to {
         transform: translateY(0px);
     }
-} */
+}
+
+.pfp {
+    animation: pfpIn .75s;
+}
+
+@keyframes pfpIn {
+    from {
+        transform: translatex(-10000px);
+    }
+
+    to {
+        transform: translatex(0px);
+    }
+}
+
+.homeFooter {
+    animation: footerIn 1s;
+}
+
+@keyframes footerIn {
+    from {
+        transform: translatey(10000px);
+    }
+
+    to {
+        transform: translatey(0px);
+    }
+}
