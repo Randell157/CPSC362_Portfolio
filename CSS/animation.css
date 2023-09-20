@@ -9,7 +9,7 @@
         transform: translateY(0px);
     }
 }
-.mainPage{
+.wrapper{
     animation: bodyIn 1s;
 }
 @keyframes bodyIn {
