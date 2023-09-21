@@ -95,6 +95,16 @@ nav a:hover {
     width: 200px;
 }
 
+.starRailSS{
+    display: flex;
+    width: 400px;
+    float: right;
+}
+
+figcaption{
+    text-align: center;
+}
+
 .logo {
     max-width: 75px;
     padding: 10px;
