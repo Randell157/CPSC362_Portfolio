@@ -103,6 +103,7 @@ nav a:hover {
 
 ul {
     list-style-type: none;
+    word-spacing: 2;
 }
 
 h3 {
